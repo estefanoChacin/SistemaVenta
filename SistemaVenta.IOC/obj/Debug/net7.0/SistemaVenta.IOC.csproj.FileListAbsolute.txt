@@ -17,3 +17,22 @@ C:\Users\WPOSS\Documents\GlobalAzure\Sistema de Venta\Solucion Sistema de Ventas
 C:\Users\WPOSS\Documents\GlobalAzure\Sistema de Venta\Solucion Sistema de Ventas\SistemaVenta.IOC\bin\Debug\net7.0\SistemaVenta.DALL.pdb
 C:\Users\WPOSS\Documents\GlobalAzure\Sistema de Venta\Solucion Sistema de Ventas\SistemaVenta.IOC\bin\Debug\net7.0\SistemaVenta.Entity.pdb
 C:\Users\WPOSS\Documents\GlobalAzure\Sistema de Venta\Solucion Sistema de Ventas\SistemaVenta.IOC\obj\Debug\net7.0\SistemaVenta.IOC.csproj.CopyComplete
+C:\Users\WPOSS\Documents\SistemaVenta\SistemaVenta.IOC\bin\Debug\net7.0\SistemaVenta.IOC.deps.json
+C:\Users\WPOSS\Documents\SistemaVenta\SistemaVenta.IOC\bin\Debug\net7.0\SistemaVenta.IOC.dll
+C:\Users\WPOSS\Documents\SistemaVenta\SistemaVenta.IOC\bin\Debug\net7.0\SistemaVenta.IOC.pdb
+C:\Users\WPOSS\Documents\SistemaVenta\SistemaVenta.IOC\bin\Debug\net7.0\SistemaVenta.BLL.dll
+C:\Users\WPOSS\Documents\SistemaVenta\SistemaVenta.IOC\bin\Debug\net7.0\SistemaVenta.DALL.dll
+C:\Users\WPOSS\Documents\SistemaVenta\SistemaVenta.IOC\bin\Debug\net7.0\SistemaVenta.Entity.dll
+C:\Users\WPOSS\Documents\SistemaVenta\SistemaVenta.IOC\bin\Debug\net7.0\SistemaVenta.BLL.pdb
+C:\Users\WPOSS\Documents\SistemaVenta\SistemaVenta.IOC\bin\Debug\net7.0\SistemaVenta.DALL.pdb
+C:\Users\WPOSS\Documents\SistemaVenta\SistemaVenta.IOC\bin\Debug\net7.0\SistemaVenta.Entity.pdb
+C:\Users\WPOSS\Documents\SistemaVenta\SistemaVenta.IOC\obj\Debug\net7.0\SistemaVenta.IOC.csproj.AssemblyReference.cache
+C:\Users\WPOSS\Documents\SistemaVenta\SistemaVenta.IOC\obj\Debug\net7.0\SistemaVenta.IOC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WPOSS\Documents\SistemaVenta\SistemaVenta.IOC\obj\Debug\net7.0\SistemaVenta.IOC.AssemblyInfoInputs.cache
+C:\Users\WPOSS\Documents\SistemaVenta\SistemaVenta.IOC\obj\Debug\net7.0\SistemaVenta.IOC.AssemblyInfo.cs
+C:\Users\WPOSS\Documents\SistemaVenta\SistemaVenta.IOC\obj\Debug\net7.0\SistemaVenta.IOC.csproj.CoreCompileInputs.cache
+C:\Users\WPOSS\Documents\SistemaVenta\SistemaVenta.IOC\obj\Debug\net7.0\SistemaVenta.IOC.csproj.CopyComplete
+C:\Users\WPOSS\Documents\SistemaVenta\SistemaVenta.IOC\obj\Debug\net7.0\SistemaVenta.IOC.dll
+C:\Users\WPOSS\Documents\SistemaVenta\SistemaVenta.IOC\obj\Debug\net7.0\refint\SistemaVenta.IOC.dll
+C:\Users\WPOSS\Documents\SistemaVenta\SistemaVenta.IOC\obj\Debug\net7.0\SistemaVenta.IOC.pdb
+C:\Users\WPOSS\Documents\SistemaVenta\SistemaVenta.IOC\obj\Debug\net7.0\ref\SistemaVenta.IOC.dll

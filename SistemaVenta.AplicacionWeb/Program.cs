@@ -1,4 +1,5 @@
 using SistemaVenta.IOC;
+using SistemaVenta.AplicacionWeb.Utilidades.AutoMapper;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -6,6 +7,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.InyectarDependencia(builder.Configuration);
+// se importa la configuracuion de los automappers
+builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 
 var app = builder.Build();
 
