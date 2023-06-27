@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y7SIcrgo+1H0tgztoK45qfyMrk0qfCY6Qcv6LmaBYcKY9M6uE5VeKY62OQKU7Tm5CPwjYZ0HqGripldAICIuqQ==",
+  "dgSpecHash": "pP1eQugucgptkpXVidAUaie+RL55DDFAFheTRLKa0peyOBC+Pdmk+81wuIDMxsfqje5R0rcl7CNOB7Klc6qO/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\WPOSS\\Documents\\GlobalAzure\\Sistema de Venta\\Solucion Sistema de Ventas\\SistemaVenta.Entity\\SistemaVenta.Entity.csproj",
+  "projectFilePath": "C:\\Users\\WPOSS\\Documents\\SistemaVenta\\SistemaVenta.Entity\\SistemaVenta.Entity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\WPOSS\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\WPOSS\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

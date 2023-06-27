@@ -3467,11 +3467,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\WPOSS\\Documents\\GlobalAzure\\Sistema de Venta\\Solucion Sistema de Ventas\\SistemaVenta.Entity\\SistemaVenta.Entity.csproj",
+      "projectUniqueName": "C:\\Users\\WPOSS\\Documents\\SistemaVenta\\SistemaVenta.Entity\\SistemaVenta.Entity.csproj",
       "projectName": "SistemaVenta.Entity",
-      "projectPath": "C:\\Users\\WPOSS\\Documents\\GlobalAzure\\Sistema de Venta\\Solucion Sistema de Ventas\\SistemaVenta.Entity\\SistemaVenta.Entity.csproj",
+      "projectPath": "C:\\Users\\WPOSS\\Documents\\SistemaVenta\\SistemaVenta.Entity\\SistemaVenta.Entity.csproj",
       "packagesPath": "C:\\Users\\WPOSS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\WPOSS\\Documents\\GlobalAzure\\Sistema de Venta\\Solucion Sistema de Ventas\\SistemaVenta.Entity\\obj\\",
+      "outputPath": "C:\\Users\\WPOSS\\Documents\\SistemaVenta\\SistemaVenta.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
