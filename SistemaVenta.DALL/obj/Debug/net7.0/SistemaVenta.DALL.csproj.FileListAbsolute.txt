@@ -1,0 +1,15 @@
+C:\Users\WPOSS\Documents\GlobalAzure\Sistema de Venta\Solucion Sistema de Ventas\SistemaVenta.DALL\bin\Debug\net7.0\SistemaVenta.DALL.deps.json
+C:\Users\WPOSS\Documents\GlobalAzure\Sistema de Venta\Solucion Sistema de Ventas\SistemaVenta.DALL\bin\Debug\net7.0\SistemaVenta.DALL.dll
+C:\Users\WPOSS\Documents\GlobalAzure\Sistema de Venta\Solucion Sistema de Ventas\SistemaVenta.DALL\bin\Debug\net7.0\SistemaVenta.DALL.pdb
+C:\Users\WPOSS\Documents\GlobalAzure\Sistema de Venta\Solucion Sistema de Ventas\SistemaVenta.DALL\obj\Debug\net7.0\SistemaVenta.DALL.csproj.AssemblyReference.cache
+C:\Users\WPOSS\Documents\GlobalAzure\Sistema de Venta\Solucion Sistema de Ventas\SistemaVenta.DALL\obj\Debug\net7.0\SistemaVenta.DALL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WPOSS\Documents\GlobalAzure\Sistema de Venta\Solucion Sistema de Ventas\SistemaVenta.DALL\obj\Debug\net7.0\SistemaVenta.DALL.AssemblyInfoInputs.cache
+C:\Users\WPOSS\Documents\GlobalAzure\Sistema de Venta\Solucion Sistema de Ventas\SistemaVenta.DALL\obj\Debug\net7.0\SistemaVenta.DALL.AssemblyInfo.cs
+C:\Users\WPOSS\Documents\GlobalAzure\Sistema de Venta\Solucion Sistema de Ventas\SistemaVenta.DALL\obj\Debug\net7.0\SistemaVenta.DALL.csproj.CoreCompileInputs.cache
+C:\Users\WPOSS\Documents\GlobalAzure\Sistema de Venta\Solucion Sistema de Ventas\SistemaVenta.DALL\obj\Debug\net7.0\SistemaVenta.DALL.dll
+C:\Users\WPOSS\Documents\GlobalAzure\Sistema de Venta\Solucion Sistema de Ventas\SistemaVenta.DALL\obj\Debug\net7.0\refint\SistemaVenta.DALL.dll
+C:\Users\WPOSS\Documents\GlobalAzure\Sistema de Venta\Solucion Sistema de Ventas\SistemaVenta.DALL\obj\Debug\net7.0\SistemaVenta.DALL.pdb
+C:\Users\WPOSS\Documents\GlobalAzure\Sistema de Venta\Solucion Sistema de Ventas\SistemaVenta.DALL\obj\Debug\net7.0\ref\SistemaVenta.DALL.dll
+C:\Users\WPOSS\Documents\GlobalAzure\Sistema de Venta\Solucion Sistema de Ventas\SistemaVenta.DALL\bin\Debug\net7.0\SistemaVenta.Entity.dll
+C:\Users\WPOSS\Documents\GlobalAzure\Sistema de Venta\Solucion Sistema de Ventas\SistemaVenta.DALL\bin\Debug\net7.0\SistemaVenta.Entity.pdb
+C:\Users\WPOSS\Documents\GlobalAzure\Sistema de Venta\Solucion Sistema de Ventas\SistemaVenta.DALL\obj\Debug\net7.0\SistemaVenta.DALL.csproj.CopyComplete
