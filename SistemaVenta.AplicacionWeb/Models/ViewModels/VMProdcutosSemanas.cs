@@ -3,6 +3,6 @@
     public class VMProdcutosSemanas
     {
         public string? Producto { get; set; }
-        public string? Cantidad { get; set; }
+        public int? Cantidad { get; set; }
     }
 }

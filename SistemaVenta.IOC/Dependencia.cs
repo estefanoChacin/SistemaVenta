@@ -25,6 +25,8 @@ namespace SistemaVenta.IOC
             services.AddScoped<IFireBaseServices, FireBaseService>();
             services.AddScoped<IUtilidadesServices, UtilidadesServices>();
             services.AddScoped<IUsuarioServices, UsuarioServices>();
+            services.AddScoped<IRolServices, RolServices>();
+
         }
     }
 }

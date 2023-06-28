@@ -1,0 +1,15 @@
+C:\Users\WPOSS\Documents\SistemaVenta\SistemaVenta.DALL\bin\Debug\net6.0\SistemaVenta.DALL.deps.json
+C:\Users\WPOSS\Documents\SistemaVenta\SistemaVenta.DALL\bin\Debug\net6.0\SistemaVenta.DALL.dll
+C:\Users\WPOSS\Documents\SistemaVenta\SistemaVenta.DALL\bin\Debug\net6.0\SistemaVenta.DALL.pdb
+C:\Users\WPOSS\Documents\SistemaVenta\SistemaVenta.DALL\bin\Debug\net6.0\SistemaVenta.Entity.dll
+C:\Users\WPOSS\Documents\SistemaVenta\SistemaVenta.DALL\bin\Debug\net6.0\SistemaVenta.Entity.pdb
+C:\Users\WPOSS\Documents\SistemaVenta\SistemaVenta.DALL\obj\Debug\net6.0\SistemaVenta.DALL.csproj.AssemblyReference.cache
+C:\Users\WPOSS\Documents\SistemaVenta\SistemaVenta.DALL\obj\Debug\net6.0\SistemaVenta.DALL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WPOSS\Documents\SistemaVenta\SistemaVenta.DALL\obj\Debug\net6.0\SistemaVenta.DALL.AssemblyInfoInputs.cache
+C:\Users\WPOSS\Documents\SistemaVenta\SistemaVenta.DALL\obj\Debug\net6.0\SistemaVenta.DALL.AssemblyInfo.cs
+C:\Users\WPOSS\Documents\SistemaVenta\SistemaVenta.DALL\obj\Debug\net6.0\SistemaVenta.DALL.csproj.CoreCompileInputs.cache
+C:\Users\WPOSS\Documents\SistemaVenta\SistemaVenta.DALL\obj\Debug\net6.0\SistemaVenta.DALL.csproj.CopyComplete
+C:\Users\WPOSS\Documents\SistemaVenta\SistemaVenta.DALL\obj\Debug\net6.0\SistemaVenta.DALL.dll
+C:\Users\WPOSS\Documents\SistemaVenta\SistemaVenta.DALL\obj\Debug\net6.0\refint\SistemaVenta.DALL.dll
+C:\Users\WPOSS\Documents\SistemaVenta\SistemaVenta.DALL\obj\Debug\net6.0\SistemaVenta.DALL.pdb
+C:\Users\WPOSS\Documents\SistemaVenta\SistemaVenta.DALL\obj\Debug\net6.0\ref\SistemaVenta.DALL.dll

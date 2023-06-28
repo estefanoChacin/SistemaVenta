@@ -49,6 +49,10 @@
       "PackagePath": "staticwebassets\\js\\sb-admin-2.min.js"
     },
     {
+      "Id": "C:\\Users\\WPOSS\\Documents\\SistemaVenta\\SistemaVenta.AplicacionWeb\\wwwroot\\js\\vistas\\Usuario_index.js",
+      "PackagePath": "staticwebassets\\js\\vistas\\Usuario_index.js"
+    },
+    {
       "Id": "C:\\Users\\WPOSS\\Documents\\SistemaVenta\\SistemaVenta.AplicacionWeb\\wwwroot\\js\\vistas\\chart-bar-demo.js",
       "PackagePath": "staticwebassets\\js\\vistas\\chart-bar-demo.js"
     },
