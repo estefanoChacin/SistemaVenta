@@ -33,7 +33,7 @@ namespace SistemaVenta.BLL.Implementacion
 
         public string GenerarClave()
         {
-            string clave = new Guid().ToString("N").Substring(0,6);
+            string clave =  Guid.NewGuid().ToString("N").Substring(0,6);
             return clave;
         }
     }

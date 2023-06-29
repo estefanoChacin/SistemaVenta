@@ -16,7 +16,10 @@ namespace SistemaVenta.BLL.Implemtancion
 
         private readonly IGenericRepository<Configuracion> _repositorio;
 
-
+        public CorreoService(IGenericRepository<Configuracion> repositorio)
+        {
+            _repositorio = repositorio;
+        }
 
         public async Task<bool> EnviarCorreo(string CorreoDestino, string Asunto, string mensaje)
         {
@@ -29,7 +32,7 @@ namespace SistemaVenta.BLL.Implemtancion
 
                 var correo = new MailMessage()
                 {
-                    From = new MailAddress(Config["correo"], Config["clave"]),
+                    From = new MailAddress(Config["correo"], Config["alias"]),
                     Subject = Asunto,
                     Body = mensaje,
                     IsBodyHtml = true
@@ -39,7 +42,7 @@ namespace SistemaVenta.BLL.Implemtancion
                 var clienteServidor = new SmtpClient()
                 {
                     Host = Config["host"],
-                    Port = int.Parse(Config["port"]),
+                    Port = int.Parse(Config["puerto"]),
                     Credentials= Credenciales,
                     DeliveryMethod = SmtpDeliveryMethod.Network,
                     UseDefaultCredentials = false,
