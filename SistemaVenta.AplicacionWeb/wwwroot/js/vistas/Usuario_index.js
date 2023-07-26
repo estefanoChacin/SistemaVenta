@@ -37,7 +37,7 @@ $(document).ready(function () {
             { "data": "idUsuario", "visible": false, "searchable": false },
             {
                 "data": "urlFoto", render: function (data) {
-                    return `<img style="height:60px" src=${data} class="rounded mx-auto d-block"/>`
+                    return `<img style="height:60px" src=${data} class="rounded mx-auto d-block">`
                 }
             },
             { "data": "nombre" },
@@ -82,7 +82,7 @@ $(document).ready(function () {
 
 
 function MostrarModal(modelo = MODELO_BASE) {
-    $("#txtId").val(modelo.idRol);
+    $("#txtId").val(modelo.idUsuario);
     $("#txtNombre").val(modelo.nombre);
     $("#txtCorreo").val(modelo.correo);
     $("#txtTelefono").val(modelo.telefono);
@@ -146,10 +146,94 @@ $("#btnGuardar").click(function () {
                 if (data.estado) {
                     tablaData.row.add(data.objecto).draw(false)
                     $("#modalData").modal("hide");
-                    swal("Listo!", "El usuario fue creado", "success")
+                    swal("Listo!", "El usuario fue creado", "success");
                 } else {
-                    swal("Los sentimos", data.mensaje, "error")
+                    $("#modalData").modal("hide");
+                    swal("Los sentimos", data.mensaje, "error");
                 }
             })
     }
+    else {
+        fetch("/Usuario/Editar", {
+            method: "PUT",
+            body: formData
+        })
+            .then(response => {
+                $("#modalData").find("div.modal-content").LoadingOverlay("hide");
+                return response.ok ? response.json() : Promise.reject(response);
+            })
+            .then(data => {
+                if (data.estado) {
+                    tablaData.row(filaSeleccionado).data(data.objecto).draw(false);
+                    filaSeleccionado = null;
+                    $("#modalData").modal("hide");
+                    swal("Listo!", "El usuario fue modificado", "success");
+                } else {
+                    $("#modalData").modal("hide");
+                    swal("Los sentimos", data.mensaje, "error");
+                }
+            })
+    }
+})
+
+
+let filaSeleccionado
+$("#tbdata tbody").on("click", ".btn-editar", function () {
+    if ($(this).closest("tr").hasClass("child")) {
+        filaSeleccionado = $(this).closest("tr").prev();
+    }
+    else {
+        filaSeleccionado = $(this).closest("tr");
+    }
+    const data = tablaData.row(filaSeleccionado).data();
+
+    MostrarModal(data);
+})
+
+
+
+$("#tbdata tbody").on("click", ".btn-eliminar", function () {
+    let fila
+    console.log("eliminar...")
+    if ($(this).closest("tr").hasClass("child")) {
+        fila = $(this).closest("tr").prev();
+    }
+    else {
+        fila = $(this).closest("tr");
+    }
+    const data = tablaData.row(fila).data();
+    swal({
+        title: "¿Esta seguro?",
+        text: `Eliminar al usuario "${data.nombre}"`,
+        type: "warning",
+        showCancelButton: true,
+        confirmButtonClass: "btn-danger",
+        confirmButtonText: "Si, eliminar",
+        cancelButtonText: "No, Cancelar",
+        closeOnConfirm: false,
+        closeOnCancel: true
+    },
+        function (respuesta) {
+            if (respuesta) {
+                $(".showSweetAlert").LoadingOverlay("show");
+                fetch(`/Usuario/Eliminar?idUsuario=${data.idUsuario}`, {
+                    method: "DELETE",
+                })
+                    .then(response => {
+                        $(".showSweetAlert").LoadingOverlay("hide");
+                        return response.ok ? response.json() : Promise.reject(response);
+                    })
+                    .then(data => {
+                        if (data.estado) {
+                            tablaData.row(fila).remove().draw()
+                            swal("Listo!", "El usuario fue Eliminado", "success");
+                        } else {
+                            //$("#modalData").modal("hide");
+                            swal("Los sentimos", data.mensaje, "error");
+                        }
+                    })
+            }
+        }
+    )
+
 })

@@ -32,6 +32,8 @@ namespace SistemaVenta.BLL.Implementacion
                 IQueryable<Configuracion> query = await _repositorio.Consultar(c => c.Recurso.Equals("FireBase_Storage"));
 
                 Dictionary<string, string> Config = query.ToDictionary(keySelector: c => c.Propiedad, elementSelector: c => c.Valor);
+                var pruena1 = Config["email"];
+                var pruena2 = Config["clave"];
 
                 var auth = new FirebaseAuthProvider(new FirebaseConfig(Config["api_key"]));
                 var a = await auth.SignInWithEmailAndPasswordAsync(Config["email"], Config["clave"]);
@@ -53,7 +55,7 @@ namespace SistemaVenta.BLL.Implementacion
 
                 UrlImagen = await task;
             }
-            catch
+            catch(Exception ex)
             {
                 UrlImagen = "";
             }

@@ -79,16 +79,16 @@ namespace SistemaVenta.AplicacionWeb.Controllers
                     nombreFoto = string.Concat(nombreCodigo, extension);
                     fotoStream = foto.OpenReadStream();
                 }
+
                 string urlPlantillaCorreo = $"{this.Request.Scheme}://{this.Request.Host}/Plantilla/EnviarClave?correo=[correo]&clave=[clave]";
-                Usuario usuarioCreado = await _usuarioServices.Crear(_mapper.Map<Usuario>(vmUsuario), fotoStream, nombreFoto, urlPlantillaCorreo);
-                vmUsuario = _mapper.Map<VMUsuario>(usuarioCreado);
+                Usuario usuario_creado = await _usuarioServices.Crear(_mapper.Map<Usuario>(vmUsuario), fotoStream, nombreFoto, urlPlantillaCorreo);
+                vmUsuario = _mapper.Map<VMUsuario>(usuario_creado);
 
                 gResponse.Estado = true;
                 gResponse.Objecto = vmUsuario;
             }
             catch (Exception ex)
             {
-
                 gResponse.Estado = false;
                 gResponse.Mensaje = ex.Message;
             }
@@ -100,7 +100,7 @@ namespace SistemaVenta.AplicacionWeb.Controllers
 
 
         #region Editar 
-        [HttpPost]
+        [HttpPut]
         public async Task<IActionResult> Editar([FromForm] IFormFile foto, [FromForm] string modelo)
         {
             GenericResponse<VMUsuario> gResponse = new GenericResponse<VMUsuario>();
@@ -116,7 +116,6 @@ namespace SistemaVenta.AplicacionWeb.Controllers
                     nombreFoto = string.Concat(nombreCodigo, extension);
                     fotoStream = foto.OpenReadStream();
                 }
-                string urlPlantillaCorreo = $"{this.Request.Scheme}://{this.Request.Host}/Plantilla/EnviarClave?correo=[correo]&clave=[clave]";
                 Usuario usuarioEditado = await _usuarioServices.Editar(_mapper.Map<Usuario>(vmUsuario), fotoStream, nombreFoto);
                 vmUsuario = _mapper.Map<VMUsuario>(usuarioEditado);
 
