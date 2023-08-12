@@ -2018,11 +2018,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\WPOSS\\Documents\\SistemaVenta\\SistemaVenta.Entity\\SistemaVenta.Entity.csproj",
+      "projectUniqueName": "D:\\PROYECTOS PERSONALES\\SistemaVenta\\SistemaVenta.Entity\\SistemaVenta.Entity.csproj",
       "projectName": "SistemaVenta.Entity",
-      "projectPath": "C:\\Users\\WPOSS\\Documents\\SistemaVenta\\SistemaVenta.Entity\\SistemaVenta.Entity.csproj",
+      "projectPath": "D:\\PROYECTOS PERSONALES\\SistemaVenta\\SistemaVenta.Entity\\SistemaVenta.Entity.csproj",
       "packagesPath": "C:\\Users\\WPOSS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\WPOSS\\Documents\\SistemaVenta\\SistemaVenta.Entity\\obj\\",
+      "outputPath": "D:\\PROYECTOS PERSONALES\\SistemaVenta\\SistemaVenta.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

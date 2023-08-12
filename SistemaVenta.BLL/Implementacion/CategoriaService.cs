@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace SistemaVenta.BLL.Implementacion
 {
-    internal class CategoriaService : ICategoriaServices
+    public class CategoriaService : ICategoriaServices
     {
         private readonly IGenericRepository<Categoria> _repository;
 
@@ -58,7 +58,7 @@ namespace SistemaVenta.BLL.Implementacion
                 categoriaEncontrada.Descripcion= entidad.Descripcion;
                 categoriaEncontrada.EsActivo = entidad.EsActivo;
 
-                bool respuesta = await _repository.Editar(entidad);
+                bool respuesta = await _repository.Editar(categoriaEncontrada);
 
                 if(!respuesta)
                     throw new TaskCanceledException("No se pudo editar la categoria");

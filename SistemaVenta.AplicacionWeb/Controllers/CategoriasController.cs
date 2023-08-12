@@ -16,8 +16,8 @@ namespace SistemaVenta.AplicacionWeb.Controllers
 
         public CategoriasController(ICategoriaServices categoriaServices, IMapper mapper)
         {
-            _categoriaService= categoriaServices;
-            _mapper=mapper;
+            _categoriaService = categoriaServices;
+            _mapper = mapper;
         }
 
 
@@ -30,8 +30,8 @@ namespace SistemaVenta.AplicacionWeb.Controllers
 
 
         [HttpGet]
-        public async Task<IActionResult> Lista() 
-        { 
+        public async Task<IActionResult> Lista()
+        {
             List<VMCategoria> listaCategoria = _mapper.Map<List<VMCategoria>>(await _categoriaService.Lista());
             return StatusCode(StatusCodes.Status200OK, new { data = listaCategoria });
         }
@@ -39,7 +39,7 @@ namespace SistemaVenta.AplicacionWeb.Controllers
 
 
         [HttpPost]
-        public async Task<IActionResult> Crear([FromBody] VMCategoria modelo) 
+        public async Task<IActionResult> Crear([FromBody] VMCategoria modelo)
         {
             GenericResponse<VMCategoria> gResponse = new GenericResponse<VMCategoria>();
             try
@@ -84,7 +84,7 @@ namespace SistemaVenta.AplicacionWeb.Controllers
 
 
         [HttpDelete]
-        public async Task<IActionResult> Eliminar(int idCategoria) 
+        public async Task<IActionResult> Eliminar(int idCategoria)
         {
             GenericResponse<VMCategoria> gResponse = new GenericResponse<VMCategoria>();
             try
@@ -98,4 +98,5 @@ namespace SistemaVenta.AplicacionWeb.Controllers
             }
             return StatusCode(StatusCodes.Status200OK, gResponse);
         }
+    }
 }

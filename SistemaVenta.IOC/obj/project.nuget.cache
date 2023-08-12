@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6Wn1jErV9D/ZHX+xRTGn5CFJ9y7szFurMH6MKyUkAV3K7enyt5guTRn3ulFnlky9kE4DOBSme5FjmlomrYVcvA==",
+  "dgSpecHash": "1cwppbHcD/NKAqhEFC73YPWSbw5Emx6rpHTcLqzI9H71lKAItj+arPKPq/OdZlnPY9uQ4Rra8tL4f0aQC4Z1RQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\WPOSS\\Documents\\SistemaVenta\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj",
+  "projectFilePath": "D:\\PROYECTOS PERSONALES\\SistemaVenta\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\WPOSS\\.nuget\\packages\\firebaseauthentication.net\\3.7.2\\firebaseauthentication.net.3.7.2.nupkg.sha512",
     "C:\\Users\\WPOSS\\.nuget\\packages\\firebasestorage.net\\1.0.3\\firebasestorage.net.1.0.3.nupkg.sha512",

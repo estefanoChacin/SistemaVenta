@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TEfkCy0eIkXBKAK/ulqohih73Em7F0jx/QTL0DNwRRBINTvV8lxP83wqDNS6y4eOCbDFfwodTMFNCfPskw92gQ==",
+  "dgSpecHash": "R8esO0kfQUo/cEKEj2OYvV3ObzV5Ogq/tTchKN519qWS43S4g0p69eRo2hWCwMmFShYUTttg2ZE86ctmDDr90g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\WPOSS\\Documents\\SistemaVenta\\SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj",
+  "projectFilePath": "D:\\PROYECTOS PERSONALES\\SistemaVenta\\SistemaVenta.AplicacionWeb\\SistemaVenta.AplicacionWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\WPOSS\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\WPOSS\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

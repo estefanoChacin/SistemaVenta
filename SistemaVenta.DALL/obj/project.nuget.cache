@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4ywXI8PZrxden9ImeezQvZTAHj+ziT3rgOofgLbAgEY8ZgpodeAg2avdD499dIsCwtIPPKAsBt/fRhv26GdxHw==",
+  "dgSpecHash": "0NHq57d+un8nnmk5cHHjwx4OthyEUkbdTCGGfPdre3NTI5wpXFkHWaplkH2DRVgU6qhAYrbfqK23wvRk6z6jPw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\WPOSS\\Documents\\SistemaVenta\\SistemaVenta.DALL\\SistemaVenta.DALL.csproj",
+  "projectFilePath": "D:\\PROYECTOS PERSONALES\\SistemaVenta\\SistemaVenta.DALL\\SistemaVenta.DALL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\WPOSS\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\WPOSS\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
